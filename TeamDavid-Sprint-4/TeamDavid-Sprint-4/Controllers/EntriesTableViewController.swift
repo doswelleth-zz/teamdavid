@@ -88,8 +88,10 @@ class EntriesTableViewController: UITableViewController, NSFetchedResultsControl
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EntryTableViewCell
         
         let entry = fetchedResultsController.object(at: indexPath)
-        cell.textLabel?.text = entry.title
-        
+        cell.titleLabel.text = entry.title
+        cell.bodyText.text = entry.bodyText
+        cell.timestamp.text = entry.timestamp?.description
+
         return cell
     }
     
