@@ -88,9 +88,15 @@ class EntriesTableViewController: UITableViewController, NSFetchedResultsControl
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EntryTableViewCell
         
         let entry = fetchedResultsController.object(at: indexPath)
-        cell.titleLabel.text = entry.title
-        cell.bodyText.text = entry.bodyText
-        cell.timestamp.text = entry.timestamp?.description
+        cell.titleLabel.text = entry.title!
+        cell.bodyText.text = entry.bodyText!
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        
+        let date = dateFormatter.string(from: entry.timestamp!)
+        
+        cell.timestamp.text = date
 
         return cell
     }

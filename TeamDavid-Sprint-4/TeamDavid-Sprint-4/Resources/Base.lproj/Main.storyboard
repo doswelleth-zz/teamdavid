@@ -69,9 +69,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="bodyText" destination="y24-fe-Fek" id="4Jr-Pc-0Nb"/>
+                                    <outlet property="bodyText" destination="y24-fe-Fek" id="pLK-A7-Hsx"/>
                                     <outlet property="timestamp" destination="dLV-5E-DKp" id="FIh-km-1nh"/>
-                                    <outlet property="titleLabel" destination="y24-fe-Fek" id="OpL-bF-YZA"/>
+                                    <outlet property="titleLabel" destination="6jM-8F-hb5" id="XgR-le-EEZ"/>
                                     <segue destination="p1e-0b-LGj" kind="show" identifier="showEntry" id="y5U-r1-Vhl"/>
                                 </connections>
                             </tableViewCell>
