@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49754B7021D89DB800CDDD00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49754B6F21D89DB800CDDD00 /* AppDelegate.m */; };
+		49754B7621D89DB800CDDD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49754B7421D89DB800CDDD00 /* Main.storyboard */; };
+		49754B7821D89DB900CDDD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49754B7721D89DB900CDDD00 /* Assets.xcassets */; };
+		49754B7B21D89DB900CDDD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49754B7921D89DB900CDDD00 /* LaunchScreen.storyboard */; };
+		49754B7E21D89DB900CDDD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49754B7D21D89DB900CDDD00 /* main.m */; };
+		49754B8921D9F65100CDDD00 /* DODPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 49754B8821D9F65100CDDD00 /* DODPokemon.m */; };
+		49754B9121DA048D00CDDD00 /* DODPokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49754B9021DA048D00CDDD00 /* DODPokemonController.swift */; };
+		49754B9E21DA108A00CDDD00 /* DODPokedexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49754B9D21DA108A00CDDD00 /* DODPokedexTableViewController.m */; };
+		49754BA121DA185700CDDD00 /* DODPokemonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49754BA021DA185700CDDD00 /* DODPokemonDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49754B6B21D89DB800CDDD00 /* TeamDavid-Sprint-9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeamDavid-Sprint-9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49754B6E21D89DB800CDDD00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49754B6F21D89DB800CDDD00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49754B7521D89DB800CDDD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49754B7721D89DB900CDDD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49754B7A21D89DB900CDDD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49754B7C21D89DB900CDDD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49754B7D21D89DB900CDDD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49754B8421D9EF4200CDDD00 /* TeamDavid-Sprint-9-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamDavid-Sprint-9-Bridging-Header.h"; sourceTree = "<group>"; };
+		49754B8721D9F65100CDDD00 /* DODPokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODPokemon.h; sourceTree = "<group>"; };
+		49754B8821D9F65100CDDD00 /* DODPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODPokemon.m; sourceTree = "<group>"; };
+		49754B9021DA048D00CDDD00 /* DODPokemonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DODPokemonController.swift; sourceTree = "<group>"; };
+		49754B9C21DA108A00CDDD00 /* DODPokedexTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODPokedexTableViewController.h; sourceTree = "<group>"; };
+		49754B9D21DA108A00CDDD00 /* DODPokedexTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODPokedexTableViewController.m; sourceTree = "<group>"; };
+		49754B9F21DA185700CDDD00 /* DODPokemonDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DODPokemonDetailViewController.h; sourceTree = "<group>"; };
+		49754BA021DA185700CDDD00 /* DODPokemonDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DODPokemonDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49754B6821D89DB800CDDD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49754B6221D89DB800CDDD00 = {
+			isa = PBXGroup;
+			children = (
+				49754B6D21D89DB800CDDD00 /* TeamDavid-Sprint-9 */,
+				49754B6C21D89DB800CDDD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49754B6C21D89DB800CDDD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49754B6B21D89DB800CDDD00 /* TeamDavid-Sprint-9.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49754B6D21D89DB800CDDD00 /* TeamDavid-Sprint-9 */ = {
+			isa = PBXGroup;
+			children = (
+				49754B8B21D9F66500CDDD00 /* Resources */,
+				49754B8A21D9F65700CDDD00 /* Model */,
+				49754B8C21D9F76200CDDD00 /* Views */,
+				49754B9221DA0B5C00CDDD00 /* Controllers */,
+				49754B8421D9EF4200CDDD00 /* TeamDavid-Sprint-9-Bridging-Header.h */,
+			);
+			path = "TeamDavid-Sprint-9";
+			sourceTree = "<group>";
+		};
+		49754B8A21D9F65700CDDD00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49754B8721D9F65100CDDD00 /* DODPokemon.h */,
+				49754B8821D9F65100CDDD00 /* DODPokemon.m */,
+				49754B9021DA048D00CDDD00 /* DODPokemonController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49754B8B21D9F66500CDDD00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49754B6E21D89DB800CDDD00 /* AppDelegate.h */,
+				49754B6F21D89DB800CDDD00 /* AppDelegate.m */,
+				49754B7C21D89DB900CDDD00 /* Info.plist */,
+				49754B7D21D89DB900CDDD00 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49754B8C21D9F76200CDDD00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49754B7721D89DB900CDDD00 /* Assets.xcassets */,
+				49754B7421D89DB800CDDD00 /* Main.storyboard */,
+				49754B7921D89DB900CDDD00 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49754B9221DA0B5C00CDDD00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49754B9C21DA108A00CDDD00 /* DODPokedexTableViewController.h */,
+				49754B9D21DA108A00CDDD00 /* DODPokedexTableViewController.m */,
+				49754B9F21DA185700CDDD00 /* DODPokemonDetailViewController.h */,
+				49754BA021DA185700CDDD00 /* DODPokemonDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49754B6A21D89DB800CDDD00 /* TeamDavid-Sprint-9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49754B8121D89DB900CDDD00 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-9" */;
+			buildPhases = (
+				49754B6721D89DB800CDDD00 /* Sources */,
+				49754B6821D89DB800CDDD00 /* Frameworks */,
+				49754B6921D89DB800CDDD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamDavid-Sprint-9";
+			productName = "TeamDavid-Sprint-9";
+			productReference = 49754B6B21D89DB800CDDD00 /* TeamDavid-Sprint-9.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49754B6321D89DB800CDDD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Doswell";
+				TargetAttributes = {
+					49754B6A21D89DB800CDDD00 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 49754B6621D89DB800CDDD00 /* Build configuration list for PBXProject "TeamDavid-Sprint-9" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49754B6221D89DB800CDDD00;
+			productRefGroup = 49754B6C21D89DB800CDDD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49754B6A21D89DB800CDDD00 /* TeamDavid-Sprint-9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49754B6921D89DB800CDDD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49754B7B21D89DB900CDDD00 /* LaunchScreen.storyboard in Resources */,
+				49754B7821D89DB900CDDD00 /* Assets.xcassets in Resources */,
+				49754B7621D89DB800CDDD00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49754B6721D89DB800CDDD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49754B7E21D89DB900CDDD00 /* main.m in Sources */,
+				49754B9121DA048D00CDDD00 /* DODPokemonController.swift in Sources */,
+				49754BA121DA185700CDDD00 /* DODPokemonDetailViewController.m in Sources */,
+				49754B9E21DA108A00CDDD00 /* DODPokedexTableViewController.m in Sources */,
+				49754B8921D9F65100CDDD00 /* DODPokemon.m in Sources */,
+				49754B7021D89DB800CDDD00 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49754B7421D89DB800CDDD00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49754B7521D89DB800CDDD00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49754B7921D89DB900CDDD00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49754B7A21D89DB900CDDD00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49754B7F21D89DB900CDDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49754B8021D89DB900CDDD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49754B8221D89DB900CDDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				INFOPLIST_FILE = "$(SRCROOT)/TeamDavid-Sprint-9/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamDavid-Sprint-9/TeamDavid-Sprint-9-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49754B8321D89DB900CDDD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				INFOPLIST_FILE = "$(SRCROOT)/TeamDavid-Sprint-9/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-9";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamDavid-Sprint-9/TeamDavid-Sprint-9-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49754B6621D89DB800CDDD00 /* Build configuration list for PBXProject "TeamDavid-Sprint-9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49754B7F21D89DB900CDDD00 /* Debug */,
+				49754B8021D89DB900CDDD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49754B8121D89DB900CDDD00 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49754B8221D89DB900CDDD00 /* Debug */,
+				49754B8321D89DB900CDDD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49754B6321D89DB800CDDD00 /* Project object */;
+}
