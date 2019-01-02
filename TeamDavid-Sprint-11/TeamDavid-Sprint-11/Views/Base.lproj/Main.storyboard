@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="db7-h3-FrB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="5jJ-RB-ttL">
+            <objects>
+                <viewController id="db7-h3-FrB" customClass="MapViewController" customModule="TeamDavid_Sprint_11" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Gd-IA-zCo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iif-sX-J7r">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OD-xH-ZvQ">
+                                <rect key="frame" x="171" y="498" width="188" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
+                                <state key="normal" title="Create experience"/>
+                                <connections>
+                                    <segue destination="uqU-ny-HDT" kind="presentation" id="Hnc-rq-rvL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iif-sX-J7r" firstAttribute="top" secondItem="3Gd-IA-zCo" secondAttribute="top" id="1eE-nG-GGe"/>
+                            <constraint firstItem="iif-sX-J7r" firstAttribute="leading" secondItem="3Gd-IA-zCo" secondAttribute="leading" id="G8T-Fk-caw"/>
+                            <constraint firstItem="8OD-xH-ZvQ" firstAttribute="top" secondItem="ZBk-hu-fGE" secondAttribute="top" constant="382" id="MFD-Qp-NHF"/>
+                            <constraint firstItem="8OD-xH-ZvQ" firstAttribute="trailing" secondItem="3Gd-IA-zCo" secondAttribute="trailingMargin" id="XKx-S5-agc"/>
+                            <constraint firstAttribute="trailing" secondItem="iif-sX-J7r" secondAttribute="trailing" id="XND-2N-EW0"/>
+                            <constraint firstItem="iif-sX-J7r" firstAttribute="bottom" secondItem="ZBk-hu-fGE" secondAttribute="bottom" id="XX0-lY-3Hm"/>
+                            <constraint firstItem="8OD-xH-ZvQ" firstAttribute="leading" secondItem="iif-sX-J7r" secondAttribute="trailing" constant="-204" id="sQ8-fr-xkG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZBk-hu-fGE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FH1-Rs-i7L"/>
+                    <connections>
+                        <outlet property="mapView" destination="iif-sX-J7r" id="t2w-bs-RWg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kkt-dB-Eec" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354" y="124"/>
+        </scene>
+        <!--New Experience-->
+        <scene sceneID="YJ4-YM-AdT">
+            <objects>
+                <viewController id="j9U-Xz-OR5" customClass="NewExperienceViewController" customModule="TeamDavid_Sprint_11" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fwI-rP-Xxj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Gex-WH-38Q">
+                                <rect key="frame" x="8" y="124" width="359" height="274"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M4P-7f-3Dj">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="BWG-lY-h1b"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rhW-Jh-ehc">
+                                        <rect key="frame" x="0.0" y="37" width="359" height="149"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffM-dh-HIE">
+                                        <rect key="frame" x="0.0" y="194" width="359" height="42"/>
+                                        <state key="normal" title="Add Poster Image"/>
+                                        <connections>
+                                            <action selector="addPhoto:" destination="j9U-Xz-OR5" eventType="touchUpInside" id="yRN-jH-9P2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ep-bD-CIs">
+                                        <rect key="frame" x="0.0" y="244" width="359" height="30"/>
+                                        <state key="normal" title="Record">
+                                            <color key="titleColor" cyan="0.0" magenta="1" yellow="1" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playBack:" destination="j9U-Xz-OR5" eventType="touchUpInside" id="z86-ej-gpe"/>
+                                            <action selector="toggleRecord:" destination="j9U-Xz-OR5" eventType="touchUpInside" id="Hjx-to-20p"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fE7-Hk-h62" firstAttribute="bottom" secondItem="Gex-WH-38Q" secondAttribute="bottom" constant="225" id="NQa-Zb-HlV"/>
+                            <constraint firstItem="fE7-Hk-h62" firstAttribute="trailing" secondItem="Gex-WH-38Q" secondAttribute="trailing" constant="8" id="g7H-le-Yfc"/>
+                            <constraint firstItem="Gex-WH-38Q" firstAttribute="leading" secondItem="fwI-rP-Xxj" secondAttribute="leading" constant="8" id="hS6-o0-acB"/>
+                            <constraint firstItem="Gex-WH-38Q" firstAttribute="top" secondItem="fE7-Hk-h62" secondAttribute="top" constant="8" id="ywu-if-rn4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fE7-Hk-h62"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="New Experience" id="Tj6-bk-AnP">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="wcy-WC-URg">
+                            <connections>
+                                <action selector="showAddVideo:" destination="j9U-Xz-OR5" id="h83-mb-83X"/>
+                                <segue destination="SXN-hy-pJt" kind="show" identifier="showVideo" id="WJ0-9B-HYb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addPhotoButton" destination="ffM-dh-HIE" id="r7g-uT-ORG"/>
+                        <outlet property="imageView" destination="rhW-Jh-ehc" id="Ur0-uz-DrM"/>
+                        <outlet property="playbackButton" destination="0Ep-bD-CIs" id="2UV-Yy-30x"/>
+                        <outlet property="recordStopButton" destination="0Ep-bD-CIs" id="V11-nD-ozo"/>
+                        <outlet property="titleTextField" destination="M4P-7f-3Dj" id="FzH-0F-SNo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hC9-U8-4Ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2772" y="123.68815592203899"/>
+        </scene>
+        <!--Video Recording-->
+        <scene sceneID="y9W-87-ZZ8">
+            <objects>
+                <viewController id="SXN-hy-pJt" customClass="VideoViewController" customModule="TeamDavid_Sprint_11" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G5r-Wa-7jw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="We7-Vs-PkJ" customClass="CameraPreviewView" customModule="TeamDavid_Sprint_11" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="116" width="375" height="507"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEb-RT-wgi">
+                                        <rect key="frame" x="102.5" y="311" width="170" height="116"/>
+                                        <state key="normal" title="Button" image="Stop"/>
+                                        <connections>
+                                            <action selector="toggleRecord:" destination="SXN-hy-pJt" eventType="touchUpInside" id="mkO-hb-Mne"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="NEb-RT-wgi" firstAttribute="centerX" secondItem="We7-Vs-PkJ" secondAttribute="centerX" id="RPX-nf-tu8"/>
+                                    <constraint firstAttribute="bottom" secondItem="NEb-RT-wgi" secondAttribute="bottom" constant="80" id="fPe-V2-jvx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="We7-Vs-PkJ" firstAttribute="top" secondItem="Swb-Cs-p4Z" secondAttribute="top" id="JWZ-Uq-kLP"/>
+                            <constraint firstItem="We7-Vs-PkJ" firstAttribute="centerX" secondItem="G5r-Wa-7jw" secondAttribute="centerX" id="XrW-SN-82S"/>
+                            <constraint firstItem="We7-Vs-PkJ" firstAttribute="bottom" secondItem="Swb-Cs-p4Z" secondAttribute="bottom" id="YMJ-L5-Aic"/>
+                            <constraint firstItem="We7-Vs-PkJ" firstAttribute="leading" secondItem="G5r-Wa-7jw" secondAttribute="leading" id="YVV-KH-yw2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Swb-Cs-p4Z"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video Recording" id="dlx-qi-Nb2">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="80a-Wo-feh">
+                            <connections>
+                                <segue destination="db7-h3-FrB" kind="show" identifier="showMapView" id="0ia-2L-uCT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="previewView" destination="We7-Vs-PkJ" id="UZQ-x9-m2t"/>
+                        <outlet property="record" destination="NEb-RT-wgi" id="3XI-CV-gdu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZr-gL-X6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3474.4000000000001" y="123.68815592203899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="m7O-uy-u8T">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uqU-ny-HDT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="ZAv-nr-ygI">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="j9U-Xz-OR5" kind="relationship" relationship="rootViewController" id="vLE-jJ-L0W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdo-gy-Nq7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2073" y="124"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Stop" width="116" height="116"/>
+    </resources>
+</document>
