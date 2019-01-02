@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4981836921DC7B53007C0BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981836821DC7B53007C0BD1 /* AppDelegate.swift */; };
+		4981836E21DC7B53007C0BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981836C21DC7B53007C0BD1 /* Main.storyboard */; };
+		4981837021DC7B54007C0BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4981836F21DC7B54007C0BD1 /* Assets.xcassets */; };
+		4981837321DC7B54007C0BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981837121DC7B54007C0BD1 /* LaunchScreen.storyboard */; };
+		4981837821DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4981837721DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App.app */; };
+		4981837E21DC7B54007C0BD1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4981837C21DC7B54007C0BD1 /* Interface.storyboard */; };
+		4981838021DC7B55007C0BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4981837F21DC7B55007C0BD1 /* Assets.xcassets */; };
+		4981838721DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4981838621DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4981838E21DC7B55007C0BD1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981838D21DC7B55007C0BD1 /* ExtensionDelegate.swift */; };
+		4981839021DC7B55007C0BD1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4981838F21DC7B55007C0BD1 /* NotificationController.swift */; };
+		4981839221DC7B55007C0BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4981839121DC7B55007C0BD1 /* Assets.xcassets */; };
+		498183AB21DC9E10007C0BD1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498183AA21DC9E10007C0BD1 /* InterfaceController.swift */; };
+		498183AE21DCA128007C0BD1 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498183A221DC85DD007C0BD1 /* Quote.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4981837921DC7B54007C0BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4981835D21DC7B53007C0BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4981837621DC7B54007C0BD1;
+			remoteInfo = "TeamDavid-Sprint-12 WatchKit App";
+		};
+		4981838821DC7B55007C0BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4981835D21DC7B53007C0BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4981838521DC7B55007C0BD1;
+			remoteInfo = "TeamDavid-Sprint-12 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4981839A21DC7B55007C0BD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4981838721DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4981839E21DC7B55007C0BD1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4981837821DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4981836521DC7B53007C0BD1 /* TeamDavid-Sprint-12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeamDavid-Sprint-12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4981836821DC7B53007C0BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4981836D21DC7B53007C0BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4981836F21DC7B54007C0BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4981837221DC7B54007C0BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4981837421DC7B54007C0BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4981837721DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeamDavid-Sprint-12 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4981837D21DC7B54007C0BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4981837F21DC7B55007C0BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4981838121DC7B55007C0BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4981838621DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TeamDavid-Sprint-12 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4981838D21DC7B55007C0BD1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4981838F21DC7B55007C0BD1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4981839121DC7B55007C0BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4981839321DC7B55007C0BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4981839421DC7B55007C0BD1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		498183A221DC85DD007C0BD1 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		498183AA21DC9E10007C0BD1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4981836221DC7B53007C0BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4981838321DC7B55007C0BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4981835C21DC7B53007C0BD1 = {
+			isa = PBXGroup;
+			children = (
+				4981836721DC7B53007C0BD1 /* TeamDavid-Sprint-12 */,
+				4981837B21DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App */,
+				4981838A21DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension */,
+				4981836621DC7B53007C0BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4981836621DC7B53007C0BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4981836521DC7B53007C0BD1 /* TeamDavid-Sprint-12.app */,
+				4981837721DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App.app */,
+				4981838621DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4981836721DC7B53007C0BD1 /* TeamDavid-Sprint-12 */ = {
+			isa = PBXGroup;
+			children = (
+				4981836821DC7B53007C0BD1 /* AppDelegate.swift */,
+				4981836C21DC7B53007C0BD1 /* Main.storyboard */,
+				4981836F21DC7B54007C0BD1 /* Assets.xcassets */,
+				4981837121DC7B54007C0BD1 /* LaunchScreen.storyboard */,
+				4981837421DC7B54007C0BD1 /* Info.plist */,
+			);
+			path = "TeamDavid-Sprint-12";
+			sourceTree = "<group>";
+		};
+		4981837B21DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4981837C21DC7B54007C0BD1 /* Interface.storyboard */,
+				4981837F21DC7B55007C0BD1 /* Assets.xcassets */,
+				4981838121DC7B55007C0BD1 /* Info.plist */,
+			);
+			path = "TeamDavid-Sprint-12 WatchKit App";
+			sourceTree = "<group>";
+		};
+		4981838A21DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				498183A221DC85DD007C0BD1 /* Quote.swift */,
+				498183AA21DC9E10007C0BD1 /* InterfaceController.swift */,
+				4981838D21DC7B55007C0BD1 /* ExtensionDelegate.swift */,
+				4981838F21DC7B55007C0BD1 /* NotificationController.swift */,
+				4981839121DC7B55007C0BD1 /* Assets.xcassets */,
+				4981839321DC7B55007C0BD1 /* Info.plist */,
+				4981839421DC7B55007C0BD1 /* PushNotificationPayload.apns */,
+			);
+			path = "TeamDavid-Sprint-12 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4981836421DC7B53007C0BD1 /* TeamDavid-Sprint-12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4981839F21DC7B55007C0BD1 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-12" */;
+			buildPhases = (
+				4981836121DC7B53007C0BD1 /* Sources */,
+				4981836221DC7B53007C0BD1 /* Frameworks */,
+				4981836321DC7B53007C0BD1 /* Resources */,
+				4981839E21DC7B55007C0BD1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4981837A21DC7B54007C0BD1 /* PBXTargetDependency */,
+			);
+			name = "TeamDavid-Sprint-12";
+			productName = "TeamDavid-Sprint-12";
+			productReference = 4981836521DC7B53007C0BD1 /* TeamDavid-Sprint-12.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4981837621DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4981839B21DC7B55007C0BD1 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-12 WatchKit App" */;
+			buildPhases = (
+				4981837521DC7B54007C0BD1 /* Resources */,
+				4981839A21DC7B55007C0BD1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4981838921DC7B55007C0BD1 /* PBXTargetDependency */,
+			);
+			name = "TeamDavid-Sprint-12 WatchKit App";
+			productName = "TeamDavid-Sprint-12 WatchKit App";
+			productReference = 4981837721DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4981838521DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4981839721DC7B55007C0BD1 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-12 WatchKit Extension" */;
+			buildPhases = (
+				4981838221DC7B55007C0BD1 /* Sources */,
+				4981838321DC7B55007C0BD1 /* Frameworks */,
+				4981838421DC7B55007C0BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamDavid-Sprint-12 WatchKit Extension";
+			productName = "TeamDavid-Sprint-12 WatchKit Extension";
+			productReference = 4981838621DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4981835D21DC7B53007C0BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Doswell";
+				TargetAttributes = {
+					4981836421DC7B53007C0BD1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4981837621DC7B54007C0BD1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4981838521DC7B55007C0BD1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4981836021DC7B53007C0BD1 /* Build configuration list for PBXProject "TeamDavid-Sprint-12" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4981835C21DC7B53007C0BD1;
+			productRefGroup = 4981836621DC7B53007C0BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4981836421DC7B53007C0BD1 /* TeamDavid-Sprint-12 */,
+				4981837621DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App */,
+				4981838521DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4981836321DC7B53007C0BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4981837321DC7B54007C0BD1 /* LaunchScreen.storyboard in Resources */,
+				4981837021DC7B54007C0BD1 /* Assets.xcassets in Resources */,
+				4981836E21DC7B53007C0BD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4981837521DC7B54007C0BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4981838021DC7B55007C0BD1 /* Assets.xcassets in Resources */,
+				4981837E21DC7B54007C0BD1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4981838421DC7B55007C0BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4981839221DC7B55007C0BD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4981836121DC7B53007C0BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4981836921DC7B53007C0BD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4981838221DC7B55007C0BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498183AB21DC9E10007C0BD1 /* InterfaceController.swift in Sources */,
+				4981839021DC7B55007C0BD1 /* NotificationController.swift in Sources */,
+				498183AE21DCA128007C0BD1 /* Quote.swift in Sources */,
+				4981838E21DC7B55007C0BD1 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4981837A21DC7B54007C0BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4981837621DC7B54007C0BD1 /* TeamDavid-Sprint-12 WatchKit App */;
+			targetProxy = 4981837921DC7B54007C0BD1 /* PBXContainerItemProxy */;
+		};
+		4981838921DC7B55007C0BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4981838521DC7B55007C0BD1 /* TeamDavid-Sprint-12 WatchKit Extension */;
+			targetProxy = 4981838821DC7B55007C0BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4981836C21DC7B53007C0BD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4981836D21DC7B53007C0BD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4981837121DC7B54007C0BD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4981837221DC7B54007C0BD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4981837C21DC7B54007C0BD1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4981837D21DC7B54007C0BD1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4981839521DC7B55007C0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4981839621DC7B55007C0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4981839821DC7B55007C0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				INFOPLIST_FILE = "TeamDavid-Sprint-12 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-12.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		4981839921DC7B55007C0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				INFOPLIST_FILE = "TeamDavid-Sprint-12 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-12.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		4981839C21DC7B55007C0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				IBSC_MODULE = TeamDavid_Sprint_12_WatchKit_Extension;
+				INFOPLIST_FILE = "TeamDavid-Sprint-12 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-12.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		4981839D21DC7B55007C0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				IBSC_MODULE = TeamDavid_Sprint_12_WatchKit_Extension;
+				INFOPLIST_FILE = "TeamDavid-Sprint-12 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-12.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		498183A021DC7B55007C0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				INFOPLIST_FILE = "TeamDavid-Sprint-12/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		498183A121DC7B55007C0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEBVY2C5S6;
+				INFOPLIST_FILE = "TeamDavid-Sprint-12/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doswelloliverdavid.TeamDavid-Sprint-12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4981836021DC7B53007C0BD1 /* Build configuration list for PBXProject "TeamDavid-Sprint-12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4981839521DC7B55007C0BD1 /* Debug */,
+				4981839621DC7B55007C0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4981839721DC7B55007C0BD1 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-12 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4981839821DC7B55007C0BD1 /* Debug */,
+				4981839921DC7B55007C0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4981839B21DC7B55007C0BD1 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-12 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4981839C21DC7B55007C0BD1 /* Debug */,
+				4981839D21DC7B55007C0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4981839F21DC7B55007C0BD1 /* Build configuration list for PBXNativeTarget "TeamDavid-Sprint-12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498183A021DC7B55007C0BD1 /* Debug */,
+				498183A121DC7B55007C0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4981835D21DC7B53007C0BD1 /* Project object */;
+}
